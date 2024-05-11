@@ -146,8 +146,8 @@ strong {
 }
 
 .vibrant-gradient-text {
-    /* font-size: 17px; */
-    font-size: 18px;
+    font-size: 17px;
+    /* font-size: 18px; */
     font-weight: 400;
     text-decoration: underline; /* Adds underline to the text */
     background-image: linear-gradient(to right, #6a82fb, #fc5c7d, #fccb90); /* Initial vibrant gradient */
