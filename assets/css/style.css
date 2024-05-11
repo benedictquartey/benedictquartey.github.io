@@ -144,3 +144,17 @@ strong {
     color: var(--blue1);
     font-weight: 400;
 }
+
+.vibrant-gradient-text {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: underline; /* Adds underline to the text */
+    background-image: linear-gradient(to right, #6a82fb, #fc5c7d, #fccb90); /* Initial vibrant gradient */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: background-image 0.10s ease; /* Smooth transition for the gradient */
+}
+
+.vibrant-gradient-text:hover {
+    background-image: linear-gradient(to right, #24c6dc, #514a9d); /* Soothing sea blue to deep violet on hover */
+}
