@@ -4,23 +4,20 @@
 <head>
   <meta charset="utf-8">
   <meta name="description" content="Verifiably Following Complex Robot Instructions with Foundation Models.">
-  <meta name="keywords" content="Limp, Robotlimp, Foundation models">
+  <meta name="keywords"
+    content="Limp, robotlimp, foundation models, robot instruction following, visual language models, motion planning, task and motion planning">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Verifiably Following Complex Robot Instructions with Foundation Models</title>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-D5Q8X3K99Q"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-
-    gtag('js', new Date());
-
-    gtag('config', 'G-PYVRSFMDRL');
-  </script>
+  gtag('config', 'G-D5Q8X3K99Q');
+</script>
 
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
 
@@ -57,38 +54,36 @@
           <div class="column has-text-centered">
             <h1 class="title is-1 publication-title">Verifiably Following Complex Robot Instructions with Foundation
               Models</h1>
-              <div class="is-size-4 publication-authors">
-                <span class="author-block">
-                  <a href="https://benedictquartey.github.io/">Benedict Quartey</a>,</span>
-                <span class="author-block">
-                  <a href="https://eric-rosen.github.io/">Eric Rosen</a>,</span>
-                <span class="author-block">
-                  <a href="https://cs.brown.edu/people/stellex/">Stefanie Tellex</a>,
-                </span>
-                <span class="author-block">
-                  <a href="https://cs.brown.edu/people/gdk/">George Konidaris</a>
-                </span>
-              </div>
-              <div class="is-size-5 publication-authors">
-                <span class="author-block">Brown University</span>
-              </div>
+            <div class="is-size-4 publication-authors">
+              <span class="author-block">
+                <a href="https://benedictquartey.github.io/">Benedict Quartey</a>,</span>
+              <span class="author-block">
+                <a href="https://eric-rosen.github.io/">Eric Rosen</a>,</span>
+              <span class="author-block">
+                <a href="https://cs.brown.edu/people/stellex/">Stefanie Tellex</a>,
+              </span>
+              <span class="author-block">
+                <a href="https://cs.brown.edu/people/gdk/">George Konidaris</a>
+              </span>
+            </div>
+            <div class="is-size-5 publication-authors">
+              <span class="author-block">Brown University</span>
+            </div>
             <div class="column has-text-centered">
               <div class="publication-links">
                 <!-- PDF Link. -->
                 <span class="link-block">
-                  <a href="https://arxiv.org/pdf/2402.11498"
-                     class="external-link button is-normal is-rounded is-dark">
+                  <a href="https://arxiv.org/pdf/2402.11498" class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
-                        <i class="fas fa-file-pdf"></i>
+                      <i class="fas fa-file-pdf"></i>
                     </span>
                     <span>Paper</span>
                   </a>
                 </span>
                 <span class="link-block">
-                  <a href="https://arxiv.org/pdf/2402.11498"
-                     class="external-link button is-normal is-rounded is-dark">
+                  <a href="https://arxiv.org/pdf/2402.11498" class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
-                        <i class="ai ai-arxiv"></i>
+                      <i class="ai ai-arxiv"></i>
                     </span>
                     <span>arXiv</span>
                   </a>
@@ -106,29 +101,29 @@
                 <!-- Code Link. -->
                 <span class="link-block">
                   <a href="https://github.com/benedictquartey/robotlimp"
-                     class="external-link button is-normal is-rounded is-dark">
+                    class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
-                        <i class="fab fa-github"></i>
+                      <i class="fab fa-github"></i>
                     </span>
                     <span>LIMP Codebase</span>
-                    </a>
+                  </a>
                 </span>
                 <!-- Code Link. -->
                 <span class="link-block">
                   <a href="https://github.com/benedictquartey/open-spatial-grounding"
-                     class="external-link button is-normal is-rounded is-dark">
+                    class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
-                        <i class="fab fa-github"></i>
+                      <i class="fab fa-github"></i>
                     </span>
                     <span>Open Spatial Grounding</span>
-                    </a>
+                  </a>
                 </span>
               </div>
+            </div>
           </div>
-        </div>
   </section>
 
-  
+
   <section class="section" style="margin-top: -7%">
     <div class="container is-max-desktop">
       <div class="hero-body">
@@ -136,16 +131,25 @@
           <h2 class="title is-3">Abstract</h2>
         </div>
         <p class="subtitle has-text-justified" style="font-size: 14px; padding-top: 1%;">
-          Enabling mobile robots to follow complex natural language instructions is an important yet challenging problem. 
-          People want to flexibly express constraints, refer to arbitrary landmarks and verify behavior when instructing robots. 
-          Conversely, robots must disambiguate human instructions into specifications and ground instruction referents in the real world. 
-          We propose Language Instruction grounding for Motion Planning (LIMP), an approach that enables robots to verifiably follow expressive 
-          and complex open-ended instructions in real-world environments without prebuilt semantic maps. LIMP constructs a symbolic instruction 
-          representation that reveals the robot’s alignment with an instructor’s intended motives and affords the synthesis of robot behaviors 
-          that are correct-byconstruction. We perform a large scale evaluation and demonstrate our approach on 150 instructions in five real-world 
-          environments showing the generality of our approach and the ease of deployment in novel unstructured domains. 
-          In our experiments, LIMP performs comparably with state-of-the-art LLM task planners and LLM code-writing planners on standard open vocabulary 
-          tasks and additionally achieves 79% success rate on complex spatiotemporal instructions while LLM and Code-writing planners both achieve 38%.
+          Enabling mobile robots to follow complex natural language instructions is an important yet challenging
+          problem.
+          People want to flexibly express constraints, refer to arbitrary landmarks and verify behavior when instructing
+          robots.
+          Conversely, robots must disambiguate human instructions into specifications and ground instruction referents
+          in the real world.
+          We propose Language Instruction grounding for Motion Planning (LIMP), an approach that enables robots to
+          verifiably follow expressive
+          and complex open-ended instructions in real-world environments without prebuilt semantic maps. LIMP constructs
+          a symbolic instruction
+          representation that reveals the robot’s alignment with an instructor’s intended motives and affords the
+          synthesis of robot behaviors
+          that are correct-byconstruction. We perform a large scale evaluation and demonstrate our approach on 150
+          instructions in five real-world
+          environments showing the generality of our approach and the ease of deployment in novel unstructured domains.
+          In our experiments, LIMP performs comparably with state-of-the-art LLM task planners and LLM code-writing
+          planners on standard open vocabulary
+          tasks and additionally achieves 79% success rate on complex spatiotemporal instructions while LLM and
+          Code-writing planners both achieve 38%.
         </p>
       </div>
     </div>
@@ -287,9 +291,11 @@
         <p class="title is-3">Baseline Comparison<br><span class="title is-5">(All robot videos are 1x
             speed)</span></p>
         <p class="subtitle has-text-justified" style="font-size: 14px; padding-top:1%">
-          We compare LIMP with baseline implementations of an LLM task planner (NLmap-Saycan) and an LLM code-writing planner
+          We compare LIMP with baseline implementations of an LLM task planner (NLmap-Saycan) and an LLM code-writing
+          planner
           (Code-as-policies), representing
-          state-of-the-art approaches for open-ended language-conditioned robot instruction following. To ensure competitive
+          state-of-the-art approaches for open-ended language-conditioned robot instruction following. To ensure
+          competitive
           performance, we integrate our spatial grounding module and low-level robot control into these baselines,
           allowing them to query our module for 3D object positions, execute
           manipulation options, and use our path planner. We observe that LLM and code-writing planners are quite adept
@@ -349,31 +355,56 @@
       <div class="column has-text-centered">
         <p class="title is-3">More Demonstration Videos</p>
         <p class="subtitle has-text-justified" style="font-size: 14px; padding-top:1%">
-          We run a comprehensive evaluation on 150 natural language instructions in multiple real world environments. See below for some additional instruction following videos.
+          We run a comprehensive evaluation on 150 natural language instructions in multiple real world environments.
+          See below for some additional instruction following videos.
         </p>
         <select id="videoSelector" onchange="loadVideo()">
           <!-- <option value="" disabled selected>Select a video</option> -->
-          <option value="./static/videos/extra_demos/toy_poster_seat.mp4" >I am sitting on the brown sofa under the painting get me the plush toy on the table</option>
-          <option value="./static/videos/extra_demos/book_printer.mp4" >Bring the red book to the small printer on the right side of the big one</option>
-          <option value="./static/videos/extra_demos/coke_to_crate.mp4">Help me pack the coke into the black crate</option>
-          <option value="./static/videos/extra_demos/microwave_sink.mp4">I want to wash the red bottle in the sink, i think i left it in the microwave bring it</option>
-          <option value="./static/videos/extra_demos/redbottle_computer.mp4">Go get the red bottle and bring it to the computer close to the green trash bin</option>
+          <option value="./static/videos/extra_demos/toy_poster_seat.mp4">I am sitting on the brown sofa under the
+            painting get me the plush toy on the table</option>
+          <option value="./static/videos/extra_demos/book_printer.mp4">Bring the red book to the small printer on the
+            right side of the big one</option>
+          <option value="./static/videos/extra_demos/coke_to_crate.mp4">Help me pack the coke into the black crate
+          </option>
+          <option value="./static/videos/extra_demos/microwave_sink.mp4">I want to wash the red bottle in the sink, i
+            think i left it in the microwave bring it</option>
+          <option value="./static/videos/extra_demos/redbottle_computer.mp4">Go get the red bottle and bring it to the
+            computer close to the green trash bin</option>
         </select>
 
         <!-- Video player -->
         <div id="videoContainer" style="margin-top: 20px;">
-          <video id="videoPlayer" autoplay controls muted preload loop playsinline width="100%" style="border-radius: 15px;">
-            <source id="videoSource"  src="./static/videos/extra_demos/toy_poster_seat.mp4"  type="video/mp4">
+          <video id="videoPlayer" autoplay controls muted preload loop playsinline width="100%"
+            style="border-radius: 15px;">
+            <source id="videoSource" src="./static/videos/extra_demos/toy_poster_seat.mp4" type="video/mp4">
           </video>
+        </div>
       </div>
+
     </div>
-  
-  </div>
   </div>
 
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <div class="column has-text-centered">
+        <h2 class="title">BibTeX</h2>
+      </div>
+      <pre><code>
+        @article{quartey2024verifiably,
+          title={Verifiably Following Complex Robot Instructions with Foundation Models},
+          author={Quartey, Benedict and Rosen, Eric and Tellex, Stefanie and Konidaris, George},
+          journal={arXiv preprint arXiv:2402.11498},
+          year={2024}
+        }</code></pre>
+    </div>
+    <div class="container is-max-desktop">
+    <p> Special thanks to <a href="https://nerfies.github.io/">Nerfies</a> for an awesome website template!</p>
+    </div>
+  </section>
 
   <br>
   <br>
+
 </body>
 
 <script>
