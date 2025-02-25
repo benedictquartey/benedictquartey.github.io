@@ -159,3 +159,11 @@ strong {
 .vibrant-gradient-text:hover {
     background-image: linear-gradient(to right, #24c6dc, #514a9d); /* Soothing sea blue to deep violet on hover */
 }
+
+.blueish-gradient-text {
+    text-decoration: none;
+    background-image: linear-gradient(to right, #24c6dc, #514a9d);  /* Initial vibrant gradient */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
